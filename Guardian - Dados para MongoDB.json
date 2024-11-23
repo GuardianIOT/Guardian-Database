@@ -1,0 +1,309 @@
+{
+    "GUA_PROPRIETARIA": [
+        {
+            "id_proprietaria": 1,
+            "razao_social": "Energia Renovável do Brasil LTDA",
+            "cnpj": "12.345.678/0001-90",
+            "endereco_principal": "Av. Paulista, 1000, São Paulo - SP",
+            "telefone_principal": "(11) 3333-4444",
+            "email_contato": "contato@energia-renovavel.com.br"
+        },
+        {
+            "id_proprietaria": 2,
+            "razao_social": "Eólica Nordeste S.A.",
+            "cnpj": "98.765.432/0001-21",
+            "endereco_principal": "Rua das Flores, 45, Salvador - BA",
+            "telefone_principal": "(71) 2222-3333",
+            "email_contato": "suporte@eolicanordeste.com.br"
+        },
+        {
+            "id_proprietaria": 3,
+            "razao_social": "Sustentável Energia LTDA",
+            "cnpj": "45.678.901/0001-34",
+            "endereco_principal": "Av. Brasil, 1200, Rio de Janeiro - RJ",
+            "telefone_principal": "(21) 9999-8888",
+            "email_contato": "info@sustentavelenergia.com.br"
+        },
+        {
+            "id_proprietaria": 4,
+            "razao_social": "Solar Power Brasil",
+            "cnpj": "21.987.654/0001-12",
+            "endereco_principal": "Rua do Sol, 200, Recife - PE",
+            "telefone_principal": "(81) 3344-5566",
+            "email_contato": "contato@solarpowerbr.com"
+        },
+        {
+            "id_proprietaria": 5,
+            "razao_social": "EcoWinds S.A.",
+            "cnpj": "65.432.109/0001-56",
+            "endereco_principal": "Rua Verde, 500, Fortaleza - CE",
+            "telefone_principal": "(85) 7777-8888",
+            "email_contato": "contato@ecowinds.com.br"
+        }
+    ],
+    "GUA_USUARIO": [
+        {
+            "id_usuario": 1,
+            "nome": "Carlos",
+            "sobrenome": "Silva",
+            "cargo": "Gerente de Operações",
+            "cpf": "123.456.789-00",
+            "email": "carlos.silva@energia-renovavel.com.br",
+            "senha": "senha123",
+            "telefone": "(11) 91234-5678",
+            "id_proprietaria": 1
+        },
+        {
+            "id_usuario": 2,
+            "nome": "Maria",
+            "sobrenome": "Oliveira",
+            "cargo": "Coordenadora de Projetos",
+            "cpf": "987.654.321-00",
+            "email": "maria.oliveira@eolicanordeste.com.br",
+            "senha": "senha456",
+            "telefone": "(71) 91234-5678",
+            "id_proprietaria": 2
+        },
+        {
+            "id_usuario": 3,
+            "nome": "José",
+            "sobrenome": "Santos",
+            "cargo": "Analista Ambiental",
+            "cpf": "456.789.123-45",
+            "email": "jose.santos@sustentavelenergia.com.br",
+            "senha": "senha789",
+            "telefone": "(21) 99876-5432",
+            "id_proprietaria": 3
+        },
+        {
+            "id_usuario": 4,
+            "nome": "Fernanda",
+            "sobrenome": "Costa",
+            "cargo": "Engenheira de Processos",
+            "cpf": "234.567.890-12",
+            "email": "fernanda.costa@solarpowerbr.com",
+            "senha": "senha101",
+            "telefone": "(81) 93333-4444",
+            "id_proprietaria": 4
+        },
+        {
+            "id_usuario": 5,
+            "nome": "Lucas",
+            "sobrenome": "Mendes",
+            "cargo": "Supervisor de Manutenção",
+            "cpf": "654.321.987-65",
+            "email": "lucas.mendes@ecowinds.com.br",
+            "senha": "senha202",
+            "telefone": "(85) 95555-6666",
+            "id_proprietaria": 5
+        }
+    ],
+    "GUA_LOCALIZACAO": [
+        {
+            "id_localizacao": 1,
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "regiao": "Sudeste",
+            "pais": "Brasil",
+            "latitude": -23.55052,
+            "longitude": -46.633308
+        },
+        {
+            "id_localizacao": 2,
+            "cidade": "Salvador",
+            "estado": "BA",
+            "regiao": "Nordeste",
+            "pais": "Brasil",
+            "latitude": -12.9714,
+            "longitude": -38.5014
+        },
+        {
+            "id_localizacao": 3,
+            "cidade": "Rio de Janeiro",
+            "estado": "RJ",
+            "regiao": "Sudeste",
+            "pais": "Brasil",
+            "latitude": -22.9068,
+            "longitude": -43.1729
+        },
+        {
+            "id_localizacao": 4,
+            "cidade": "Recife",
+            "estado": "PE",
+            "regiao": "Nordeste",
+            "pais": "Brasil",
+            "latitude": -8.0476,
+            "longitude": -34.8770
+        },
+        {
+            "id_localizacao": 5,
+            "cidade": "Fortaleza",
+            "estado": "CE",
+            "regiao": "Nordeste",
+            "pais": "Brasil",
+            "latitude": -3.7172,
+            "longitude": -38.5437
+        }
+    ],
+    "GUA_PARQUE_EOLICO": [
+        {
+            "id_parque_eolico": 1,
+            "nome": "Parque Eólico São Paulo",
+            "ano_inauguracao": 2022,
+            "area_km": 150.5,
+            "tecnologia": "Offshore",
+            "status_operacao": "Operando",
+            "numero_aerogeradores": 50,
+            "id_proprietaria": 1,
+            "id_localizacao": 1
+        },
+        {
+            "id_parque_eolico": 2,
+            "nome": "Parque Eólico Nordeste",
+            "ano_inauguracao": 2021,
+            "area_km": 200.3,
+            "tecnologia": "Onshore",
+            "status_operacao": "Em construção",
+            "numero_aerogeradores": 70,
+            "id_proprietaria": 2,
+            "id_localizacao": 2
+        },
+        {
+            "id_parque_eolico": 3,
+            "nome": "Parque Eólico Rio de Janeiro",
+            "ano_inauguracao": 2023,
+            "area_km": 180.0,
+            "tecnologia": "Híbrido",
+            "status_operacao": "Operando",
+            "numero_aerogeradores": 60,
+            "id_proprietaria": 3,
+            "id_localizacao": 3
+        },
+        {
+            "id_parque_eolico": 4,
+            "nome": "Parque Eólico Recife",
+            "ano_inauguracao": 2024,
+            "area_km": 100.5,
+            "tecnologia": "Offshore",
+            "status_operacao": "Em construção",
+            "numero_aerogeradores": 30,
+            "id_proprietaria": 4,
+            "id_localizacao": 4
+        },
+        {
+            "id_parque_eolico": 5,
+            "nome": "Parque Eólico Fortaleza",
+            "ano_inauguracao": 2020,
+            "area_km": 250.0,
+            "tecnologia": "Onshore",
+            "status_operacao": "Operando",
+            "numero_aerogeradores": 80,
+            "id_proprietaria": 5,
+            "id_localizacao": 5
+        }
+    ],
+    "GUA_TORRE": [
+        {
+            "id_torre": 1,
+            "nome": "Torre São Paulo 1",
+            "data_instalacao": "2022-05-10",
+            "status_operacao": "Ativa",
+            "ultima_leitura": "2024-11-21T12:00:00"
+        },
+        {
+            "id_torre": 2,
+            "nome": "Torre Salvador 2",
+            "data_instalacao": "2023-06-15",
+            "status_operacao": "Inativa",
+            "ultima_leitura": "2024-11-20T09:45:00"
+        },
+        {
+            "id_torre": 3,
+            "nome": "Torre Rio de Janeiro 3",
+            "data_instalacao": "2021-08-23",
+            "status_operacao": "Ativa",
+            "ultima_leitura": "2024-11-19T15:30:00"
+        },
+        {
+            "id_torre": 4,
+            "nome": "Torre Recife 4",
+            "data_instalacao": "2020-02-18",
+            "status_operacao": "Ativa",
+            "ultima_leitura": "2024-11-22T08:00:00"
+        },
+        {
+            "id_torre": 5,
+            "nome": "Torre Fortaleza 5",
+            "data_instalacao": "2024-07-30",
+            "status_operacao": "Em manutenção",
+            "ultima_leitura": "2024-11-18T10:00:00"
+        }
+    ],
+    "GUA_AEROGERADOR": [
+        {
+            "id_aerogerador": 1,
+            "modelo": "Vestas V90",
+            "tecnologia": "Híbrido",
+            "capacidade_mw": 2.0,
+            "altura_mastro": 120,
+            "velocidade_corte": 3.5,
+            "velocidade_maxima": 22.0,
+            "diametro_rotor": 90,
+            "data_instalacao": "2022-03-01",
+            "garantia": "S",
+            "status_operacao": "Ativo"
+        },
+        {
+            "id_aerogerador": 2,
+            "modelo": "GE 1.5sle",
+            "tecnologia": "Offshore",
+            "capacidade_mw": 1.5,
+            "altura_mastro": 100,
+            "velocidade_corte": 4.0,
+            "velocidade_maxima": 20.0,
+            "diametro_rotor": 75,
+            "data_instalacao": "2023-05-25",
+            "garantia": "S",
+            "status_operacao": "Ativo"
+        },
+        {
+            "id_aerogerador": 3,
+            "modelo": "Suzlon S66",
+            "tecnologia": "Onshore",
+            "capacidade_mw": 1.8,
+            "altura_mastro": 110,
+            "velocidade_corte": 4.0,
+            "velocidade_maxima": 24.0,
+            "diametro_rotor": 80,
+            "data_instalacao": "2024-01-10",
+            "garantia": "S",
+            "status_operacao": "Ativo"
+        },
+        {
+            "id_aerogerador": 4,
+            "modelo": "Siemens Gamesa SG 5.0-132",
+            "tecnologia": "Offshore",
+            "capacidade_mw": 5.0,
+            "altura_mastro": 150,
+            "velocidade_corte": 4.5,
+            "velocidade_maxima": 25.0,
+            "diametro_rotor": 132,
+            "data_instalacao": "2024-03-15",
+            "garantia": "S",
+            "status_operacao": "Em manutenção"
+        },
+        {
+            "id_aerogerador": 5,
+            "modelo": "Nordex N60/1300",
+            "tecnologia": "Onshore",
+            "capacidade_mw": 1.3,
+            "altura_mastro": 90,
+            "velocidade_corte": 3.0,
+            "velocidade_maxima": 18.0,
+            "diametro_rotor": 60,
+            "data_instalacao": "2024-08-21",
+            "garantia": "S",
+            "status_operacao": "Ativo"
+        }
+    ]
+}
